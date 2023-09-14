@@ -22,7 +22,7 @@ class AppendRange:
         except Exception as exc:
             exc_type, exc_obj, exc_tb = sys.exc_info()
             fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-            raise
+            raise ValueError("Error")
         else:
             try:
                 ws = ExcelWorkbook.active_worksheet(wb,sheet)
