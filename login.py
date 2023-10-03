@@ -6,7 +6,8 @@ class Login:
             print("Iniciando sesión ...")
             print("... Procesando ...")
             for i in range (0,10):
-                print(f"Procesando: {i}")                
+                print(f"Procesando: {i}")
+            print("Close process ...")      
         except Exception as e:
             print(e)
 
