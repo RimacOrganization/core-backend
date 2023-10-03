@@ -4,6 +4,7 @@ class Login:
     def initial_session(self):
         try:
             print("Iniciando sesión ...")
+            print("... Procesando ...")
         except Exception as e:
             print(e)
 
